@@ -66,7 +66,10 @@ stt.addEventListener("click", function (dets) {
 
    setTimeout(function(){
     document.querySelector("#full").style.display="none"
-   },1000)
+   },3000)
 });
 
+var story = document.getElementById("full")
+
+story.onclick = () =>   document.querySelector("#full").style.display="none"
 
